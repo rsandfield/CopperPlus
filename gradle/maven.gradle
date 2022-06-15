@@ -1,0 +1,36 @@
+jar.finalizedBy('reobfJar')
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+
+            pom {
+                name = 'CopperPlus'
+                description = 'Adds a few new uses to copper'
+                url = 'https://github.com/rsandfield/CopperPlus'
+
+                scm {
+                    connection = 'git:https://github.com/rsandfield/CopperPlus.git'
+                    developerConnection = 'git:https://github.com/rsandfield/CopperPlus.git'
+                    url = 'https://github.com/rsandfield/CopperPlus'
+                }
+
+                licenses {
+                    license {
+                        name = 'GNU Lesser General Public License v3.0'
+                        url = 'https://github.com/rsandfield/CopperPlus/LICENSE'
+                    }
+                }
+
+                developers {
+                    developer {
+                        id = 'roburrito'
+                        name = 'Robert Sandfield'
+                        email = 'roburrito.mods@gmail.com'
+                    }
+                }
+            }
+        }
+    }
+}

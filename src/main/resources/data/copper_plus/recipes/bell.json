@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "#": {
+        "item": "minecraft:stone_slab"
+      },
+      "I": {
+        "item": "minecraft:stick"
+      },
+      "B": {
+        "item": "copper_plus:hand_bell"
+      }
+    },
+    "pattern": [
+      "#I#",
+      "#B#",
+      "###"
+    ],
+    "result": {
+      "item": "minecraft:bell"
+    }
+  }

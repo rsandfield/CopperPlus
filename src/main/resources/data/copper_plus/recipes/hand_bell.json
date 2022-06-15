@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "G": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "pattern": [
+      "GCG",
+      "GGG",
+      " # "
+    ],
+    "result": {
+      "item": "copper_plus:hand_bell"
+    }
+  }

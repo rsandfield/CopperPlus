@@ -1,0 +1,18 @@
+modLoader="javafml"
+loaderVersion="[38,)"
+license="All Rights Reserved"
+issueTrackerURL="https://www.github.com/rsandfield/CopperPlus/issues"
+# If the mods defined in this file should show as separate resource packs
+showAsResourcePack=false
+
+[[mods]]
+  modId="copper_plus"
+  version="${file.jarVersion}"
+  displayName="Copper Plus"
+  displayURL="minecraftforge.net"
+  logoFile="logo.png"
+  credits="Bright and the other veteren modders."
+  authors="Robert Sandfield"
+  description='''
+  Extends the use of copper.
+  '''
