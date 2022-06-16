@@ -33,7 +33,7 @@ public class CopperItems {
 
 
     private static final Item.Properties copperProperties = new Item.Properties()
-        .tab(CreativeModeTab.TAB_TOOLS);
+        .tab(COPPER_CREATIVE_TAB);
     
     public static final RegistryObject<Item> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new PickaxeItem(CopperTiers.COPPER, 1, -2.8F, copperProperties));
     public static final RegistryObject<Item> COPPER_AXE = ITEMS.register("copper_axe", () -> new AxeItem(CopperTiers.COPPER, 6f, -3.1f, copperProperties));
