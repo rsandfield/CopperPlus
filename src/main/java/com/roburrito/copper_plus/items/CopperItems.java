@@ -48,5 +48,5 @@ public class CopperItems {
     public static final RegistryObject<Item> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () -> new ArmorItem(CopperArmorMaterials.Copper, EquipmentSlot.LEGS, copperProperties));
     public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("copper_boots", () -> new ArmorItem(CopperArmorMaterials.Copper, EquipmentSlot.FEET, copperProperties));
 
-    public static final RegistryObject<Item> HAND_BELL = ITEMS.register("hand_bell", () -> new HandBell(copperProperties.durability(8)));
+    public static final RegistryObject<Item> HAND_BELL = ITEMS.register("hand_bell", () -> new HandBell((new Item.Properties()).tab(COPPER_CREATIVE_TAB).durability(16)));
 }
